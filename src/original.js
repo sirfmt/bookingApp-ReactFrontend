@@ -1,13 +1,4 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import './form.css';
-import { Home } from './components/Home';
-import regForm from './components/RegForm';
-
-function App() {
-  return (
-    <div className="App">
+<div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -23,7 +14,3 @@ function App() {
         </a>
       </header>
     </div>
-  );
-}
-
-export default App;
