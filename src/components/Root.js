@@ -1,7 +1,7 @@
 import React from "react";
 import Header from './Header';
 import RegForm from './RegForm';
-//import {Router, browserHistory} from "react-router";
+import {Router, browserHistory} from "react-router";
 
 export class Root extends React.Component{
     render(){
@@ -15,7 +15,8 @@ export class Root extends React.Component{
 
                 <div className="row"> 
                     <div className="col-xs-10 col-xs-offset-1">
-                    <RegForm/>
+                        {this.props.children}
+                   
                     </div>
                 </div>
             </div>

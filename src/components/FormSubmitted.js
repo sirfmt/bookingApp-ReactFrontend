@@ -8,7 +8,7 @@ export class FormSubmited extends React.Component {
         return(
             <div>
                 <div>
-                <b> Your Form has been Successfully Submitted , Tack för Idag ! </b>
+                <b> Your Form has been Successfully Submitted, our Customer Support will get back to you soon ! </b>
                  </div>
                 <footer>
                 <b> fmt production 2019</b>
