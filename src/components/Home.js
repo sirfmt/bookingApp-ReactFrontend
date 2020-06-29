@@ -5,7 +5,7 @@ export class Home extends React.Component{
         return(
             <div className="home" >
                 <h1> Welcome to the Booking Appointment Application! </h1>
-                <img src="../../public/logo512.png"> </img>
+                
                 <p> This application lets you schedule an appointment with our organisation, 
                     allowing you to specify your requested need and appropriate timing so that 
                     our Engineers can come and attend to your technical needs.
@@ -15,3 +15,5 @@ export class Home extends React.Component{
         );
     }  
 }
+
+export default Home;

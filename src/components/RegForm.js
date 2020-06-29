@@ -33,9 +33,8 @@
 
 			<button className="btn btn-large">Submit </button>
 		</form>
-      
+      	</div>
 	</div>
-</div>
         )  ;
     }
  }

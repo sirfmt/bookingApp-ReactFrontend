@@ -1,14 +1,20 @@
-import React from react
-import Header from Header.js
+import React from "react";
+import Header from './Header';
 import '../nav.css';
 
 
-export class FormSubmited extends React.Component {
+export class FormSubmitted extends React.Component {
     render (){
         return(
-            <div>
+            <div className="container">
+                <div className="row"> 
+                    <div className="col-xs-10 col-xs-offset-1">
+                    <Header/>
+                    </div>
+                </div>
+
                 <div>
-                <b> Your Form has been Successfully Submitted, our Customer Support will get back to you soon ! </b>
+                     <b> Form Successfully Submitted, Customer Support will be in touch soon ! </b>
                  </div>
                 <footer>
                 <b> fmt production 2019</b>
