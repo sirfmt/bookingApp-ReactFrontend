@@ -9,6 +9,9 @@ import RegForm from './components/RegForm';
 import Root from './components/Root';
 import Home from './components/Home';
 import FormSubmitted from './components/FormSubmitted';
+import Contact from './components/Contact';
+import About from './components/About';
+import Stock from './components/stock';
 
 class Appl extends React.Component{
     render(){
@@ -18,7 +21,10 @@ class Appl extends React.Component{
                 <IndexRoute component = {Home} />
                 <Route path = "home" component = {Home} />
                 <Route path = "register" component = {RegForm} />
-                <Route path = "complete" component = {FormSubmitted} />
+                <Route path = "about" component = {About} />
+                <Route path = "contact" component = {Contact} />
+                <Route path = "stock" component = {Stock} />
+                <Route path = "checkout" component = {Stock} />
             </Route>
         </Router>
         ); 
